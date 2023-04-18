@@ -1,0 +1,22 @@
+.toggleBtn {
+    display: inline-block;
+    width: 100px;
+    height: 90px;
+    padding: 22px 25px;
+    background-color: $yellow-color;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 10;
+    border-bottom-right-radius: 100px;
+    cursor: pointer;
+
+    img{
+        position: absolute;
+        height: 30px;
+        width: 30px;
+    }
+    .close-icon{
+        opacity: 0;
+    }
+}

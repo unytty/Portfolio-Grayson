@@ -1,0 +1,11 @@
+@keyframes stripe-one{
+    50%{
+        transform: translateY(-200%);
+    }
+}
+
+@keyframes stripe-two{
+    50%{
+        transform: translateY(0%);
+    }
+}
